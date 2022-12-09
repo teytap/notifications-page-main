@@ -1,0 +1,62 @@
+body {
+  background: hsl(210, 60%, 98%);
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: hsl(219, 12%, 42%);
+  font-weight: 500;
+}
+h1 {
+  color: hsl(224, 21%, 14%);
+}
+.container {
+  max-width: 800px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 3px 3px 15px hsl(211, 68%, 94%);
+  margin: 60px auto;
+  padding: 40px;
+}
+
+#notification-number {
+  background-color: hsl(224, 21%, 14%);
+  color: white;
+  padding: 3px 10px;
+  border-radius: 3px;
+  font-size: large;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  padding: 3px 10px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.user-name {
+  font-weight: 600;
+  color: black;
+}
+
+.user-explain {
+  font-weight: bold;
+}
+.notification {
+  padding: 20px;
+  margin: 15px 0px;
+
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 80px 1fr;
+}
+.recent {
+  background-color: hsl(211, 68%, 94%);
+}
+.red-record {
+  color: red;
+  font-size: 20px;
+}
