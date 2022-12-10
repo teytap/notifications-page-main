@@ -7,36 +7,43 @@ body {
 h1 {
   color: hsl(224, 21%, 14%);
 }
+a {
+  color: hsl(219, 12%, 42%);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: hsl(220, 75%, 33%);
+}
 .container {
-  max-width: 800px;
+  max-width: 700px;
   background-color: white;
   border-radius: 20px;
   box-shadow: 3px 3px 15px hsl(211, 68%, 94%);
   margin: 60px auto;
   padding: 40px;
 }
-
-#notification-number {
-  background-color: hsl(224, 21%, 14%);
-  color: white;
-  padding: 3px 10px;
-  border-radius: 3px;
-  font-size: large;
-}
 header {
   display: flex;
   justify-content: space-between;
 }
+#notification-number {
+  background-color: hsl(220, 75%, 33%);
+  color: white;
+  padding: 3px 10px;
+  border-radius: 3px;
+  font-size: large;
+  margin: 5px;
+}
+
+.as-read {
+  color: hsl(219, 12%, 42%);
+  margin-top: 30px;
+}
 button {
   padding: 3px 10px;
 }
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
+
 .user-name {
   font-weight: 600;
   color: black;
@@ -48,7 +55,6 @@ button {
 .notification {
   padding: 20px;
   margin: 15px 0px;
-
   border-radius: 8px;
   display: grid;
   grid-template-columns: 80px 1fr;
@@ -59,4 +65,29 @@ button {
 .red-record {
   color: red;
   font-size: 20px;
+}
+.notification1 {
+  padding: 20px;
+  margin: 15px 0px;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 80px 1fr 80px;
+}
+.time {
+  margin-top: 7px;
+}
+.message {
+  border: 1px solid hsl(205, 33%, 90%);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 10px;
+}
+.message:hover {
+  background: hsl(205, 33%, 90%);
+  color: hsl(219, 12%, 42%);
+  cursor: pointer;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
 }

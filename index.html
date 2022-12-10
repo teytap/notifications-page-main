@@ -27,7 +27,7 @@
     <div class="container">
       <header>
         <h1>Notifications <span id="notification-number">3</span></h1>
-        <a href="#" onclick="asRead()">Mark all as read</a>
+        <a href="#" onclick="asRead()" class="as-read">Mark all as read</a>
       </header>
       <main>
         <div class="recent notification" id="notification">
@@ -39,9 +39,9 @@
             />
           </div>
           <div>
-            <span class="user-name">Mark Webber</span
+            <a href="#" class="user-name">Mark Webber</a
             ><span class="user-action"> reacted to your recent post </span
-            ><span class="user-explain">My first tournament today!</span
+            ><a href="#" class="user-explain">My first tournament today!</a
             ><span class="red-record"> ●</span>
 
             <div class="time">1m ago</div>
@@ -56,9 +56,9 @@
             />
           </div>
           <div>
-            <span class="user-name">Angela Gray </span
+            <a href="#" class="user-name">Angela Gray </a
             ><span class="user-action"> followed you</span
-            ><span class="user-explain"></span
+            ><a href="#" class="user-explain"></a
             ><span class="red-record"> ●</span>
             <div class="time">5m ago</div>
           </div>
@@ -72,9 +72,9 @@
             />
           </div>
           <div>
-            <span class="user-name">Jacob Thompson </span
+            <a href="#" class="user-name">Jacob Thompson </a
             ><span class="user-action">has joined your group </span
-            ><span class="user-explain">Chess Club </span
+            ><a href="#" class="user-explain">Chess Club </a
             ><span class="red-record">●</span>
             <div class="time">1 day ago</div>
           </div>
@@ -88,17 +88,17 @@
             />
           </div>
           <div>
-            <span class="user-name">Rizky Hasanuddin </span
-            ><span class="user-action">sent you a private message </span>
+            <a href="#" class="user-name">Rizky Hasanuddin </a>
+            <span class="user-action">sent you a private message </span>
             <div class="time">5 days ago</div>
-            <span class="user-explain"
-              >Hello, thanks for setting up the Chess Club. I've been a member
+            <div class="message user-explain">
+              Hello, thanks for setting up the Chess Club. I've been a member
               for a few weeks now and I'm already having lots of fun and
-              improving my game.</span
-            >
+              improving my game.
+            </div>
           </div>
         </div>
-        <div class="notification">
+        <div class="notification1">
           <div>
             <img
               src="assets/images/avatar-kimberly-smith.webp"
@@ -107,13 +107,17 @@
             />
           </div>
           <div>
-            <span class="user-name">Kimberly Smith </span
+            <a href="#" class="user-name">Kimberly Smith </a
             ><span class="user-action">commented on your picture </span>
-            <span class="user-explain"
-              ><img src="assets/images/image-chess.webp" alt="" width="60"
-            /></span>
             <div class="time">1 week ago</div>
           </div>
+          <a href="#" class="user-explain"
+            ><img
+              src="assets/images/image-chess.webp"
+              alt="image-chess"
+              width="60"
+              class="image-chess"
+          /></a>
         </div>
         <div class="notification">
           <div>
@@ -124,10 +128,10 @@
             />
           </div>
           <div>
-            <span class="user-name">Nathan Peterson </span
+            <a href="#" class="user-name">Nathan Peterson </a
             ><span class="user-action">reacted to your recent post </span>
-            <span class="user-explain"
-              >5 end-game strategies to increase your win rate</span
+            <a href="#" class="user-explain"
+              >5 end-game strategies to increase your win rate</a
             >
             <div class="time">2 weeks ago</div>
           </div>
@@ -137,9 +141,9 @@
             <img src="assets/images/avatar-anna-kim.webp" alt="" width="60" />
           </div>
           <div>
-            <span class="user-name">Anna Kim</span
+            <a href="#" class="user-name">Anna Kim</a
             ><span class="user-action">left the group </span>
-            <span class="user-explain"> Chess Club</span>
+            <a href="#" class="user-explain"> Chess Club</a>
 
             <div class="time">2 weeks ago</div>
           </div>
