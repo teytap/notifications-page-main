@@ -60,7 +60,7 @@ button {
   grid-template-columns: 80px 1fr;
 }
 .recent {
-  background-color: hsl(211, 68%, 94%);
+  background-color: hsl(210, 60%, 98%);
 }
 .red-record {
   color: red;
